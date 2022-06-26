@@ -5,9 +5,6 @@ import { useNavigate } from "react-router-dom";
 import { Footer } from "../components/Footer";
 import { useCreateSubscriberMutation } from "../graphql/generated";
 
-
-
-
 export function Subscribe (){
     const navigate = useNavigate()
     const [name, setName] = useState('');
@@ -26,7 +23,6 @@ export function Subscribe (){
     
         navigate('/event');
       }
-    
 
     return(
         <div className="min-h-screen  bg-blur bg-cover bg-no-repeat flex flex-col items-center">
@@ -62,8 +58,8 @@ export function Subscribe (){
                 </form>
             </div>
             </div>
-            <img src="/src/assets/code-mockup.png"
-            className="at-10" alt=""/>
+            <img src={"../../plubic/assets/code-mockup.png"} alt="Mockup" 
+            className="at-10"/>
             
             <div className="w-full bg-gray-700">
                 <Footer />
