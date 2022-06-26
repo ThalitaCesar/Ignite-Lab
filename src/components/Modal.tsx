@@ -6,7 +6,7 @@ interface IProps {
 
 export function Modal({ children }: IProps) {
     return (
-        <div className="absolute top-12 bg-gray-700 w-full h-full z-50 flex justify-end transition-transform">
+        <div className="absolute top-12 bg-gray-700 w-full h-auto z-50 flex justify-end transition-transform">
             {children}
         </div>
     )

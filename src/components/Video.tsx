@@ -53,7 +53,7 @@ export function Video(props: VideoProps){
     return(
         <div className= "flex-1">
         <div className="bg-black flex justify-center">
-            <div className="h-full w-full max-w-[1100px] max-h-[60vh] aspect-video">
+            <div className="h-full w-full max-w-[1200px] max-h-[60vh] aspect-video">
             <Player>
             <Youtube videoId={data.lesson.videoId} />
             <DefaultUi />
@@ -116,23 +116,23 @@ export function Video(props: VideoProps){
                 </div>
             </a>
 
-
             <a href="" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
                 <div className="p-2 md:p-6 bg-green-700 h-full flex items-center">
                 <FileArrowDown size={40}/>
                 </div>
-
                 <div className="py-2 md:py-6 flex flex-1 flex-col leading-relaxed">
-                    <strong className="md:text-2xl ">Wallpapers exclusivos</strong>
+                    <strong className="md:text-2xl">
+                    Wallpapers exclusivos
+                        </strong>
                     <p className="text-[10px] md:text-sm text-gray-200 mt-2">
-                        Baixe wallpapers exclusivos do Ignite Lab e personalize a sua máquina.
+                    Baixe wallpapers exclusivos do Ignite Lab e personalize a sua máquina.
                     </p>
                 </div>
-                <div className="p-2 md:p-6 h-full flex items-center">
+                <div className="h-full p-2 md:p-6 flex items-center">
                 <CaretRight size={24}/> 
                 </div>
             </a>
-          
+
             </div>
             <div>
 
