@@ -10,7 +10,7 @@ A aplicação contém duas páginas:
  * Plataforma de videos: onde contém o cronograma de aulas, os videos e materiais extras.
 
 <h2 id="site"> Link do site </h2>
-<p>🔗 <a href="#" target="_blank"> Ignite-Lab </a>  </p>
+<p>🔗 <a href="https://ignite-lab-two-chi.vercel.app/" target="_blank"> Ignite-Lab </a>  </p>
 
 
 
