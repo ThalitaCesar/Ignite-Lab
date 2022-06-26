@@ -7,30 +7,16 @@ import { Header } from "../components/Header";
 import { Modal } from "../components/Modal";
 import { Sidebar } from "../components/Sidebar";
 import { Video } from "../components/Video";
+import { useGetFirstLessonQuery } from "../graphql/generated";
 
-const GET_FIRST_LESSON = gql`
-    query getFirstLesson {
-        lessons(orderBy: availableAt_ASC, first: 1) {
-            availableAt
-            slug
-        }
-    }
-`;
-
-interface Lessons {
-    lessons: {
-        slug: string;
-        availableAt: string;
-    }[]
-}
 
 export function Event(){
 
     const {slug} = useParams<{slug:string}>();
     const navigate = useNavigate();
     const [showModal, setShowModal] = useState(false);
-    const { data } = useQuery<Lessons>(GET_FIRST_LESSON);
-
+    const { data } = useGetFirstLessonQuery();
+    
 
     useEffect(() => {
         setShowModal(false);
@@ -66,7 +52,7 @@ export function Event(){
                 <Sidebar />
             </Modal>
         )}
-     <div className="w-full bg-gray-700">
+     <div className="w-full ">
                 <Footer />
             </div>
     </div>

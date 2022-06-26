@@ -1,0 +1,6 @@
+  query getFirstLesson {
+        lessons(orderBy: availableAt_ASC, first: 1) {
+            availableAt
+            slug
+        }
+    }
