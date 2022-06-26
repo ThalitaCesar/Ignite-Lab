@@ -2,7 +2,7 @@ import { useGetLessonsQuery } from "../graphql/generated";
 import { Lesson } from "./Lesson";
 
 export function Sidebar(){
-
+//teste
     const { data } = useGetLessonsQuery();
 
     return(
