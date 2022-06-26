@@ -18,7 +18,8 @@ A aplicação contém duas páginas:
 
 <h3>Imagens Desktop </h3>
 
-![ignite-1](https://user-images.githubusercontent.com/83131771/175817876-8ac9db5f-dad2-4cd0-906a-36e8afef4f73.png)
+![abertura](https://user-images.githubusercontent.com/83131771/175818741-4a1602e7-961c-46ed-9161-5860d3d1ad90.png)
+
 ![ignite-2](https://user-images.githubusercontent.com/83131771/175817878-dc45a2ae-9b54-4069-a7da-b574bcad26fa.png)
 ![ignite-3](https://user-images.githubusercontent.com/83131771/175817879-bb8dbb02-d00d-40ff-bbd7-abef8282700c.png)
 ![ignite-4](https://user-images.githubusercontent.com/83131771/175817881-39b243bc-2d7b-4cf0-9cad-7f6a1b077cb0.png)
@@ -32,6 +33,5 @@ A aplicação contém duas páginas:
 ![mobile3](https://user-images.githubusercontent.com/83131771/175818228-2bf93b26-ea9f-40bf-b985-51a3ea6bb5cd.png)
 
 ![mobile4](https://user-images.githubusercontent.com/83131771/175818282-c4cfdb33-2318-45b9-a418-3696ebdcd3e0.png)
-
 
 ![mobile5](https://user-images.githubusercontent.com/83131771/175818229-91359fc7-c872-4f6e-9b0d-ab12d25d26cf.png)
