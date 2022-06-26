@@ -5,9 +5,6 @@ import { useNavigate } from "react-router-dom";
 import { Footer } from "../components/Footer";
 import { useCreateSubscriberMutation } from "../graphql/generated";
 
-
-
-
 export function Subscribe (){
     const navigate = useNavigate()
     const [name, setName] = useState('');
@@ -26,7 +23,6 @@ export function Subscribe (){
     
         navigate('/event');
       }
-    
 
     return(
         <div className="min-h-screen  bg-blur bg-cover bg-no-repeat flex flex-col items-center">
