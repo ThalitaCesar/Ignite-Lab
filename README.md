@@ -5,6 +5,8 @@
 <h2 id="sobre"> Sobre </h2>
 <p align="justify">
  O ignite - Lab foi um evento gratuito da rocketseat, aconteceu entre os dias 19 -26 de Junho. O projeto realizado foi uma plataforma de curso com página inicial de inscrição gratuita. O design pode ser visto aqui pelo <a href="https://www.figma.com/file/12TcMzv0z2Tl5Yqo0Uyisd/Plataforma-de-evento---Ignite-Lab-(Community)?node-id=0%3A19" target="_blank">figma </a>. O objetivo foi um projeto mais especializado em react e typescript com ferramentas como o vite, graphql cms & apollo client, tailwind css, date-fns, phosphor-react, vime e graphql code generator.
+ Para rodar o projeto: yarn dev ou npm run dev
+ 
 A aplicação contém duas páginas: 
  * A página inicial, onde é realizado a apresentação do evento e a inscrição, ao realizar a inscrição o usuário é direcionado a plataforma.
  * Plataforma de videos: onde contém o cronograma de aulas, os videos e materiais extras.
